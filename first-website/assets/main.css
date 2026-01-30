@@ -1,11 +1,14 @@
 html {
-    background-color:rgb(243, 139, 220)
+    background-color:rgb(243, 139, 220);
+    font-size:22;
+    font-family: "Lobster", sans-serif;
+    /*--font-family: 'arial', fantasy;*/
     
 }
 p {
-    background-color:rgb(77, 10, 108);
-    color:rgb(55, 191, 203);
-    border: dashed;
+    background-color:rgb(95, 14, 82);
+    color:rgb(173, 234, 240);
+    border: dashed 200px rgb(90, 4, 4);
     text-align:center;
     /* width:700px;*/
 
@@ -30,9 +33,9 @@ cmd + / or ctrl + /
 opt + shift + a for alternative comment shortcut
 */
 
-h1 {
+
    /* font-size: 60px;*/
-}
+
 #special{
     background-color: rgb(109, 159, 239);
     color:darkorange;
