@@ -1,4 +1,87 @@
 html {
-  background-color: rgb(254, 216, 246)
+  background-color: rgb(255, 228, 249);
+    font-size: 22px;
+    font-family: monospace
+
+    /*.bowlby-one-sc-regular {
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;*/
+}
+
+header {
+  font-size: 50px;
+  text-align: center;
+  color:darkmagenta;
+}
+
+h1{
+  font-size: 200px;
+  text-align: center;
+  color:darkmagenta;
+}
+h2{
+  text-align: center;
+  color:darkmagenta;
+  margin: 22px;
+}
+
+h4{
+  font-size: 100px;
+  text-align: center;
+  color:darkmagenta;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h5{
+  font-size: 50px;
+  text-align: left;
+  color:darkmagenta;
+  font-family: "Major-Mono-Display", monospace;
+}
+
+body {
+
+  font-family: "Major Mono Display", monospace;
+  font-weight: 800px;
+  font-style: normal;
+}
+
+p {
+    background-color: rgb(249, 255, 182);
+    color:darkmagenta;
+    border: solid 5px rgb(90, 169, 237);
+    text-align: center;
+    font-size: 75px;
+    padding: 30px 30px 60px 60px;
+    margin: 40px;
+  }
+
+ h3 {
+    color:darkmagenta;
+    font-size: 50px;
+    text-align: left;
+  } 
+
+li {
+    color:darkmagenta;
+    font-size: 30px;
+
+}
+
+h6 {
+  background-color: rgb(249, 255, 182);
+    color:darkmagenta;
+    border: solid 5px rgb(90, 169, 237);
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 30px 60px 60px;
+    margin: 40px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
