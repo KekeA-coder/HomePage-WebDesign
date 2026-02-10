@@ -1,0 +1,88 @@
+html {
+  background-color: #fff1fd;
+    font-size: 22px;
+  font-family: "playwrite de grund", cursive;
+  font-style: normal;
+  font-weight: 100;
+
+    /*.bowlby-one-sc-regular {
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;*/
+}
+
+body{
+  font-size: 20px;
+    color: #F21B3F;
+  font-family: "Playwrite DE Grund", cursive;
+  font-weight: 100;
+  font-style: normal;
+  border: dotted 2px #F21B3F;
+}
+
+.row {
+  display: flex; /* Activates Flexbox layout */
+  gap: 20px; /* Adds space between columns */
+}
+
+.column {
+  flex: 1; /* Makes each column take up equal available space */
+  padding: 15px; /* Adds internal spacing */
+  border: 2px dotted #F21B3F; /* Optional styling */
+}
+
+
+h1 {
+  font-size: 150px;
+  text-align: center;
+  color: #F21B3F;
+  font-family: "Ballet", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: -100px;
+}
+
+h2 {
+  font-size: 40px;
+    text-align: center;
+  color: #F21B3F;
+  font-family: "Playwrite DE Grund", cursive;
+  font-weight: 150;
+  font-style: normal;
+  margin-bottom: 50px;
+}
+
+
+h3{font-size: 20px;
+    color: #F21B3F;
+  font-family: "Playwrite DE Grund", cursive;
+  font-weight: 150;
+  font-style: normal;
+  border: dotted 2px #F21B3F;
+}
+
+h4{
+  font-size: 20px;
+    color: #F21B3F;
+  font-family: "Playwrite DE Grund", cursive;
+  font-weight: 200;
+  font-style: normal;
+  border: dotted 2px #F21B3F;
+}
+
+h5{
+font-size: 30px;
+  color: #f21b3f;
+  font-family: "Ballet", cursive;
+  font-weight: 200;
+  font-style: normal;
+}
+
+li{
+  font-size: 20px;
+    color: #F21B3F;
+  font-family: "Playwrite DE Grund", cursive;
+  font-weight: 100;
+  font-style: normal;
+}
+
