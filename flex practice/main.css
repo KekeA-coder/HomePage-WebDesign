@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+.main-container{
+    background-color: lightblue;
+    padding: 10px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    background-color: rgb(245, 248, 165);
+    height: 20%;
+    gap: 10px;
+    display: flex;
+}
+
+.top-item{
+    background-color: seagreen;
+    width: 100%;
+}
+
+.bottom{
+    background-color: rgb(179, 244, 179);
+    height: 80%;
+}
+
+.left{
+    background-color: rgb(244, 179, 179);
+    width: 50%;
+}
+
+.right{
+    background-color: rgb(179, 179, 244);
+    width: 50%;
+}

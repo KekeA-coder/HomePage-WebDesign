@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.block{
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.inline{
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    padding: 50px;
+    display: inline-block;
+}
+
+.container{
+    background-color: lightblue;
+    padding: 20px;
+    display: flex;
+    height: 600px;
+
+    /*establishes the main-axis of flexbox */
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /*main-axis alignment*/
+    justify-content: space-between;
+
+    /*cross axis alignment*/
+    align-items: center;
+
+    /*cross axis alignment for wrapping flexboxes*/
+    align-content: flex-end;
+    gap: 20px;
+}
+
+.item{
+    background-color: chartreuse;
+    padding: 10px;
+    border: 1px solid;
+
+    width: 100px;
+}
