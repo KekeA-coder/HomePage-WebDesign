@@ -10,6 +10,9 @@ body {
   width: 100vw;
 }
 
+body.page-alt {
+  background-image: url("Lightspage.png");
+}
 
 .top-bar {
   background-color: #dec586; /* SaddleBrown color */
