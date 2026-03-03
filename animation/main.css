@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    background: lightgray;
+    width: 200px;
+    height: 200px;
+    /*animation-name: test;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0,2,.01,1,-0.82);*/
+    animation: test 4s 2s infinite linear alternate both;
+
+}
+
+@keyframes test{
+    0%{
+        background-color: red;
+        height: 200px;
+    }
+    100%{
+        background-color: yellow;
+        height: 400px;
+    }
+}
+
+.container{
+    background-color: lightpink;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.circle{
+    background-color: lightgray;
+    height:100px;
+    width: 100px;
+    border-radius:100%;
+}
+
+.square{
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+}
