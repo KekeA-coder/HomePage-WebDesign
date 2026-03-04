@@ -21,7 +21,7 @@
 
 @keyframes test{
     0%{
-        background-color: red;
+        background-color:red;
         height: 200px;
     }
     100%{
@@ -30,23 +30,88 @@
     }
 }
 
+body{
+    margin: 0;
+}
 .container{
-    background-color: lightpink;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    background-color:lightpink;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
 }
 
 .circle{
-    background-color: lightgray;
+    background-color:lightgray;
     height:100px;
-    width: 100px;
+    width:100px;
     border-radius:100%;
+    animation:pluse 4s infinite alternate;
 }
+
+@keyframes pluse{
+    0%{
+        background-color:lightgrey;
+        scale:1;
+    }
+    100%{
+        background-color:lightyellow;
+        scale:1.4;
+    }
+    }
 
 .square{
     background-color: lightgray;
     width: 100px;
     height: 100px;
+    animation: spin 4s infinite linear; 
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0);
+        transform:scale(1);
+    }
+    50%{
+        scale:2;
+    }
+    100%{
+        transform: rotate(360deg);
+        transform:scale(2);
+    }
+}
+
+.mover{
+    background:lightgrey;
+    width:150px;
+    height:50px;
+    /*in order for an absolutely position elemnt to position itself relative to its container, the container also needs to be given a position other than static*/
+    position: absolute;
+    bottom:0;
+    left:0;
+    animation: move 4s infinite;
+}
+
+@keyframes move{
+    0%{
+left:-150px;
+    }
+    100%{
+left:100%;
+    }
+}
+
+.changer{
+    background-color: lightgrey;
+    width: 100px;
+    height: 100px;
+    transition: background 2s, 
+                 border-radius 2s, 
+                 rotate 2s;
+}
+
+.changer:hover{
+ background-color: red;
+ border-radius: 100%;
+ rotate:360deg;
 }
