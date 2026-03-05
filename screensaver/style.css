@@ -1,11 +1,11 @@
-/* Remove margins */
+
 body {
   margin: 0;
   overflow: hidden;
   background: black;
 }
 
-/* Full screen container */
+
 .screensaver {
   width: 100vw;
   height: 100vh;
@@ -14,7 +14,7 @@ body {
   align-items: center;
 }
 
-/* Glasses wrapper for animation */
+
 .glasses-wrapper {
   position: relative;
   width: 400px;
@@ -43,35 +43,23 @@ body {
   display: block;
 }
 
-/* This layer lets us shrink positioning area */
+
 .glasses-overlay {
   position: absolute;
-  top: 20%;   /* Adjust these until it matches actual glasses */
+  top: 20%;   
   left: 10%;
   width: 80%;
   height: 60%;
 }
 
-/* Red lenses 
-.lens {
-  fill: none;
-  stroke: red;
-  stroke-width: 8;
-}
 
-Bridge 
-.bridge {
-  fill: red;
-}*/
-
-/* Floating animation */
 @keyframes float {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-30px); }
   100% { transform: translateY(0px); }
 }
 
-/* Base piercing style */
+
 .piercing {
   position: absolute;
   width: 22px;
@@ -126,8 +114,8 @@ Bridge
 
 .septum .ball {
   position: absolute;
-  width: 8px;
-  height: 8px;
+  width: 5px;
+  height: 5px;
   background: radial-gradient(circle at 30% 30%, #fff, #aaa);
   border-radius: 50%;
   bottom: -4px;
